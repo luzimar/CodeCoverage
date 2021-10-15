@@ -1,0 +1,4 @@
+src/ConversaoDistancia.Application/bin/
+src/ConversaoDistancia.Application/obj/
+tests/ConversaoDistancia.Test/bin/
+tests/ConversaoDistancia.Test/obj/

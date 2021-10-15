@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="1" branch-rate="1" version="1.9" timestamp="1634337362" lines-covered="2" lines-valid="2" branches-covered="0" branches-valid="0">
+  <sources>
+    <source>C:\</source>
+  </sources>
+  <packages>
+    <package name="ConversaoDistancia.Application" line-rate="1" branch-rate="1" complexity="2">
+      <classes>
+        <class name="ConversaoDistancia.Application.ConversorDistancias" filename="Users\supero\Documents\estudo\code-coverage\ConversaoDistancia\src\ConversaoDistancia.Application\ConversorDistancias.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="MilhasParaKm" signature="(System.Double)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name="KmParaMilhas" signature="(System.Double)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="6" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="6" branch="False" />
+            <line number="10" hits="6" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
