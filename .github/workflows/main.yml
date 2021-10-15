@@ -7,8 +7,8 @@ on:
     branches: [ main ]
 
 env:
-  CAMINHO_PROJETO_TESTES: ./ConversaoDistancia.Test
-  CAMINHO_PROJETO: ./ConversaoDistancia.Application/ConversaoDistancia.Application.csproj
+  CAMINHO_PROJETO_TESTES: ./tests/ConversaoDistancia.Test
+  CAMINHO_PROJETO: ./src/ConversaoDistancia.Application/ConversaoDistancia.Application.csproj
   NUGET_SERVER: https://api.nuget.org/v3/index.json
 
 jobs:
