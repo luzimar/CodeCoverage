@@ -62,7 +62,7 @@ jobs:
     needs: [tests]
     
     env:
-      CAMINHO_PROJETO: ${{ env.CAMINHO_PROJETO }}
+      CAMINHO_PROJETO: ./src/ConversaoDistancia.Application/ConversaoDistancia.Application.csproj
 
     runs-on: ubuntu-latest
 
