@@ -62,7 +62,7 @@ jobs:
     needs: [tests]
     
     env:
-      CAMINHO_PROJETO: ./Groffe.Distancias/Groffe.Distancias.csproj
+      CAMINHO_PROJETO: ${{ env.CAMINHO_PROJETO }}
 
     runs-on: ubuntu-latest
 
